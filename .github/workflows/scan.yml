@@ -1,27 +1,26 @@
 name: Secret Scan
 
-# Trigger on push, pull request, or weekly schedule
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
   schedule:
-    - cron: '0 0 * * 0'  # runs weekly at midnight UTC on Sundays
+    - cron: '0 0 * * 0' 
 
 jobs:
   trufflehog-scan:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # fetch full git history
 
-      # Step 2: Run TruffleHog OSS scan
-      - name: TruffleHog OSS scan
+      - name: TruffleHog OSS scan (full history)
         uses: trufflesecurity/trufflehog@v3.90.5
         with:
-          directory: './'   # directory to scan
-          json: true        # output results in JSON format
-          branch: main      # scan the main branch
-          no-verify: false  # include commit verification
+          directory: './'
+          json: true
+          branch: main
+          no-verify: false
