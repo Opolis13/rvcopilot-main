@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">rv_copilot1</string>
+    <string name="default_text">Default Text</string>
+
+
+    // RV Park1
+    <string name="RV_PARK1_name">KOA Albany/Corvallis</string>
+    <string name="RV_PARK1_address">33775 Oakville Road, South Albany, OR 97321</string>
+    <string name="RV_PARK1_phone">1-541-967-8521</string>
+    <string name="RV_PARK1_email">corvalliskoa@racpack.com</string>
+    <string name="RV_PARK1_type">Patio</string>
+    <string name="RV_PARK1_power">50 Amp and 30 Amp outlets</string>
+    <string name="RV_PARK1_pad">pull through gravel</string>
+    <string name="RV_PARK1_Pets">pet fee</string>
+    <string name="RV_PARK1_ammenity1">dump, water, sewer</string>
+    <string name="RV_PARK1_ammenity2">Cable, WiFi</string>
+    <string name="RV_PARK1_ammenity3">Patio furniture, Chimnea</string>
+
+    //-----------------------------------------------------------
+    // RV Park2
+    <string name="RV_PARK2_name">KOA Waldport/NewPort</string>
+    <string name="RV_PARK2_address">1330 NW Pacific Coast HWY, Waldport, OR 97394</string>
+    <string name="RV_PARK2_phone">1-541-563-2250</string>
+    <string name="RV_PARK2_email">guestservices@waldportkoa.com</string>
+    <string name="RV_PARK2_type">Patio</string>
+    <string name="RV_PARK2_power">50 Amp and 30 Amp outlets</string>
+    <string name="RV_PARK2_pad">pull through gravel</string>
+    <string name="RV_PARK2_Pets">pets allowed</string>
+    <string name="RV_PARK2_ammenity1">water, sewer</string>
+    <string name="RV_PARK2_ammenity2">Satellite friendly</string>
+    <string name="RV_PARK2_ammenity3">Patio furniture, Fire Ring</string>
+    // -------------------------------------------------------------
+    // RV Park3
+    <string name="RV_PARK3_name">KOA Cascade Locks</string>
+    <string name="RV_PARK3_address">, , OR 97394</string>
+    <string name="RV_PARK3_phone">1-541-</string>
+    <string name="RV_PARK3_email"></string>
+    <string name="RV_PARK3_type">Patio</string>
+    <string name="RV_PARK3_power">50 Amp and 30 Amp outlets</string>
+    <string name="RV_PARK3_pad">pull through gravel</string>
+    <string name="RV_PARK3_Pets">pets allowed</string>
+    <string name="RV_PARK3_ammenity1">water, sewer</string>
+    <string name="RV_PARK3_ammenity2">Satellite friendly</string>
+    <string name="RV_PARK3_ammenity3">Patio furniture, Fire Ring</string>
+    // -------------------------------------------------------------
+
+
+
+
+
+
+
+     // Aircraft Button tail numbers
+    // -----------------------------------------------------------------
+    <string name = "RvParkString">default RV Park</string>
+    // -------------------------------------------------------------
+
+
+     // Start page (HOMEpage) not used for now
+    // -----------------------------------------------------------------
+
+    <string name = "belowButtonText1">Click the \'View\' button to see the first airplane!\n
+        </string>
+    <string name = "belowButtonText2">Click the \'View\' button to see the second airplane!\n
+        </string>
+    <string name="back_button_description">back</string>
+
+</resources>

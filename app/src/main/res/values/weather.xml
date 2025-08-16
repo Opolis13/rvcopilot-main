@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weather">WEATHER</string>
+    <string name="weather_api">https://weather.com/weather/today</string>
+    <string name="radar">https://www.aviationweather.gov/#radar</string>
+    <string name="sunset">https://www.timeanddate.com/sun/usa</string>
+    <string name="temperature">https://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm</string>
+    <string name="cellular">https://www.fcc.gov/BroadbandData/MobileMaps/mobile-map</string>
+
+
+</resources>
