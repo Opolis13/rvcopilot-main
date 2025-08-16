@@ -15,12 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # fetch full git history
+          fetch-depth: 0 
 
       - name: TruffleHog OSS scan (full history)
         uses: trufflesecurity/trufflehog@v3.90.5
         with:
-          directory: './'
-          json: true
-          branch: main
-          no-verify: false
+          path: ./  
+          extra_args: --json
